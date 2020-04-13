@@ -21,7 +21,7 @@ def analysis(df):
     max = df.price.max()
     print("Max $ Value of Diamonds: ${:0,.2f}".format(max))
 
-     # Min price
+    # Min price
     min = df.price.min()
     print("Min $ Value of Diamonds: ${:0,.2f}".format(min))
 
